@@ -1,0 +1,10 @@
+Write a Python program using the `curses` library to implement a Snake game with the following specifications:
+
+1. The game should have a fixed size of 20x40.
+2. The snake starts as "red" and grows to spell out "redhat" as it consumes food.
+3. The food represents the next character in the sequence, starting after "red".
+4. The game is won when the snake spells out "redhat", and the winning message should display "Red Hat OpenShift !!".
+5. If the snake collides with itself or the game boundaries, the game ends with a "Game Over" message.
+6. When the snake is moving right, the letters should flip so that the first letter appears last. For other directions, the letters should remain in their natural order.
+7. The python file should be "snake.py"
+8. The food should never be right next to boundary
